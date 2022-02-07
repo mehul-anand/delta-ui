@@ -81,11 +81,14 @@ aside {
   align-items: center;
   justify-content: space-around;
   grid-area: aside;
+  margin-top: 10rem;
+  position: fixed;
 }
 
 aside ul li {
   list-style: none;
   padding: 0.6rem 3rem;
+  margin: 1rem;
 }
 
 .center-container {
