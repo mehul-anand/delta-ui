@@ -1,5 +1,6 @@
 @import "alert.css";
 @import "avatar.css";
+@import "badge.css";
 
 :root {
   --primary-color: blueviolet;
