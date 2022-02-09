@@ -121,7 +121,7 @@ main {
 /* component container */
 .component-container-column {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-flow: column wrap;
   width: 70%;
@@ -132,7 +132,7 @@ main {
 
 .component-container-avatar {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   text-align: center;
   flex-flow: row wrap;
   width: 70%;
