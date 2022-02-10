@@ -1,6 +1,6 @@
 .card {
-  border: 2px solid var(--primary-color);
-  width: 350px;
+  border: 0.12rem solid var(--primary-color);
+  width: 22rem;
   text-align: left;
   height: auto;
   padding: 1rem;
@@ -8,7 +8,7 @@
 }
 
 .card-shadow {
-  box-shadow: 2px 2px 20px 1px var(--primary-color);
+  box-shadow: 0.12rem 0.12rem 1.2rem 0.12rem var(--primary-color);
 }
 
 .card-header {
@@ -29,7 +29,7 @@
 
 .cardCollectionVerticalVariant {
   display: flex;
-  gap: 20px;
+  gap: 1.2rem;
   flex-wrap: wrap;
 }
 
@@ -74,15 +74,15 @@
   color: var(--white-color);
   cursor: pointer;
   border-radius: 0.25rem;
-  border: 2px solid var(--primary-color);
+  border: 0.12rem solid var(--primary-color);
 }
 
 .wishlist-button {
   padding: 0.5rem;
-  margin-top: 4px;
+  margin-top: 0.25rem;
   width: 95%;
   border-radius: 0.25rem;
-  border: 2px solid var(--primary-color);
+  border: 0.12rem solid var(--primary-color);
   background-color: var(--white-color);
   cursor: pointer;
   margin-bottom: 1rem;
@@ -101,12 +101,12 @@
 .discount-percent {
   color: var(--success-color);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .discount-price {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.3rem;
 }
 
 .card-description {
@@ -115,8 +115,8 @@
 
 .image-badge {
   position: absolute;
-  left: 0px;
-  top: 15px;
+  left: 0rem;
+  top: 1rem;
   background-color: var(--success-color);
   padding: 0.5rem;
   color: var(--white-color);
