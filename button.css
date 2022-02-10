@@ -1,0 +1,66 @@
+.button{
+    background-color: var(--default-color);
+    color: var(--off-white);
+    min-width: 100px;
+    width: max-content;
+    padding: 0.8rem 1rem;
+    border-radius: 1px;
+    cursor: pointer; 
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    font-weight: bold;
+} 
+
+.button-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.button-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.button-error{
+    background-color: var(--error-alert);
+    color: var(--secondary-color);
+}
+
+.button-warning{
+    background-color: var(--warning-alert);  
+}
+
+.button-success{
+    background-color: var(--success-alert); 
+    color: var(--secondary-color);
+}
+
+.outline{
+    color: var(--primary-color);
+    background-color: var(--off-white);
+}
+
+.outline-primary{
+    background-color: var(--off-white);
+    color: var(--primary-color);
+}
+
+.outline-error{
+    color: var(--error-alert);
+    background-color: var(--off-white);
+} 
+
+.outline-warning{
+    color: var(--warning-color);
+    background-color: var(--warning-alert);
+}
+
+.outline-success{
+    color: var(--success-alert);
+    background-color: var(--off-white);
+}
+
+.button-link{
+    border: 2px solid var(--primary-color);
+}
