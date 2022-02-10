@@ -88,12 +88,12 @@
   margin-bottom: 1rem;
 }
 
-.button1:hover {
+.cart-button:hover {
   color: var(--primary-color);
   background-color: var(--white-color);
 }
 
-.button2:hover {
+.wishlist-button:hover {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
