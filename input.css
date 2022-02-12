@@ -1,0 +1,19 @@
+.input{
+    height: 50px;
+   outline: none; 
+   
+}
+
+.input-error{
+    border: 2px solid var(--error-alert);
+    color: var(--danger-color);
+
+}
+
+.input-error::placeholder{
+    color: var(--error-alert);
+}
+
+.input:disabled{
+    cursor: not-allowed;
+}
