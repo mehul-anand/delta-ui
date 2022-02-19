@@ -1,0 +1,33 @@
+.toast-header{
+    color: var(--primary-color);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 2;
+}
+
+.toast-content{
+    width: 350px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toast{
+    border-radius: 1rem;
+    background-color: var(--success-alert);
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.success-toast{
+    border: 2px solid var(--success-alert);
+    color: ivory;
+    /* background-color: coral; */
+}
