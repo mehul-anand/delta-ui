@@ -1,0 +1,39 @@
+.rating-class{
+  direction: rtl;
+}
+
+.rating-class label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem;
+  direction: ltr;
+}
+
+.rating-class input {
+  display: none;
+}
+
+.rating-class label::before {
+  content: "\2605";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+
+.rating-class label::after {
+  content: "\2605";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  color: yellow;
+}
+
+.rating-class label:hover::after,
+.rating-class label:hover ~ label::after,
+.rating-class input:checked ~ label::after {
+  opacity: 1;
+}

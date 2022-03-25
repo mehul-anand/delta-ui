@@ -5,6 +5,9 @@
 @import "card.css";
 @import "image.css";
 @import "input.css";
+@import "modal.css";
+@import "rating.css";
+@import "toast.css";
 
 :root {
   --primary-color: blueviolet;
