@@ -1,0 +1,53 @@
+.badge{
+    position: relative; 
+} 
+
+.status{
+    width: 16px;
+    height: 16px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    position: absolute;  
+    left: 80px;
+    top: 75px;
+}
+
+.online{
+   
+    background-color: var(--success-alert);
+}
+
+.idle{
+    
+    background-color: var(--warning-alert);
+
+}
+
+.doNotDisturb{
+    
+    background-color: var(--error-alert);
+
+}
+
+
+.number{
+    position: absolute;
+    right: 5rem;
+    bottom: 9rem;
+    background-color: var(--primary-color); 
+    border-radius: 1rem;
+    font-size: 1.27rem;
+}
+
+.number2{
+    position: absolute;
+    right: 1rem;
+    bottom: 10.5rem;
+    background-color: var(--primary-color); 
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.badge-image{
+    position: relative;
+}

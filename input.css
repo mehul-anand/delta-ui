@@ -1,0 +1,21 @@
+.input{
+    height: 3.12rem;
+   outline: none; 
+   width: 30rem;
+   margin: 1rem;
+   
+}
+
+.input-error{
+    border: 2px solid var(--error-alert);
+    color: var(--danger-color);
+
+}
+
+.input-error::placeholder{
+    color: var(--error-alert);
+}
+
+.input:disabled{
+    cursor: not-allowed;
+}

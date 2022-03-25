@@ -1,8 +1,3 @@
-:root{
-  --primary-color:blueviolet;
-  --secondary-color:#fff;
-}
-
 /* reset CSS */
 body {
   margin: 0;
@@ -29,7 +24,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   padding: 1px;
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   grid-area: header;
   margin-bottom: 9rem;
   max-height: 10vh;
@@ -47,40 +42,43 @@ header {
   padding: 10px;
 }
 
-.link{
+.link {
   text-decoration: none;
   padding: 0.5rem 1rem;
   color: var(--primary-color);
 }
 
 /*Primary Link */
-.prim-link{
+.prim-link {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: ivory;
 }
 
 /*Secondary Link */
-.sec-link{
-  color:var(--primary-color);
-  border-radius:0.5rem;
+.sec-link {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
 }
 
 /* sidebar */
-aside{
+aside {
   display: flex;
   align-items: center;
   justify-content: space-around;
   grid-area: aside;
+  margin-top: 10rem;
+  position: fixed;
 }
 
 aside ul li {
   list-style: none;
   padding: 0.6rem 3rem;
+  margin: 1rem;
 }
 
-.center-container{
+.center-container {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -88,16 +86,44 @@ aside ul li {
   color: var(--primary-color);
 }
 
-.prim-link{
+.prim-link {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: ivory;
 }
 
 /*Secondary Link */
-.sec-link{
-  color:var(--primary-color);
-  border-radius:0.5rem;
+.sec-link {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
 }
 
+/* main */
+main {
+  grid-area: main;
+}
+
+/* component container */
+.component-container-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 70%;
+  padding: 2rem;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+}
+
+.component-container-avatar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-flow: row wrap;
+  width: 70%;
+  padding: 2rem;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  gap: 20px;
+}
